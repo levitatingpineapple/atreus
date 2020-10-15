@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CHOC
+D Push button switch, normally open, two pins, 45° tilted
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+#End Doc Library
