@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name batreus)(type Legacy)(uri ${KIPRJMOD}/batreus.lib)(options "")(descr ""))
-  (lib (name batreus-rescue)(type Legacy)(uri ${KIPRJMOD}/batreus-rescue.lib)(options "")(descr ""))
-)
