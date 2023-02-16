@@ -6,21 +6,21 @@ A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kai
 
 ### Materials
 
-| Name            | Part                            | Size    | Amount |
-| --------------- | ------------------------------- | ------- | ------ |
-| Switch          | [CPG135001D0X](docs/switch.pdf) | -       | 42     |
-| Socket          | CPG135001S30                    | -       | 42     |
-| Diode           | 1N4148                          | SOD123  | 42     |
-| Controller      | nice!nano                       | -       | 1      |
-| Battery         | XZK                             | 301230  | 1      |
-| Bolt            | M2 Hex                          | 4mm     | 8      |
-| Machine Headers | Mill-Max                        | 13p 3mm | 2      |
+| Name            | Part                             | Size        | Amount |
+| --------------- | -------------------------------- | ----------- | ------ |
+| Switch          | [CPG135001D0X](docs/switch.pdf)  | -           | 42     |
+| Socket          | [CPG135001S30](docs/socket.pdf)  | -           | 42     |
+| Diode           | [1N4148](docs/diode.pdf)         | SOD123      | 42     |
+| Controller      | [nice!nano](docs/controller.png) | -           | 1      |
+| Battery         | XZK 301230                       | 30x12x3.0mm | 1      |
+| Bolt            | M2 Hex                           | 4mm         | 8      |
+| Machine Headers | Mill-Max                         | 13p 3mm     | 2      |
 
 ### PCB
 
 ![image](docs/photos/0.jpg)
 - ⚠️ No power switch for the battery
-- For every switch has a diode, soldered where an LED would normally be located, providing n-key rollover.
+- For every switch has a diode, soldered where an backlight LED would normally be located, providing n-key rollover.
 
 ### Sockets
 
