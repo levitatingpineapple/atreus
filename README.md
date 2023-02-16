@@ -1,25 +1,46 @@
 # Atreus
+![image](docs/photos/3.jpg)
 
-### Description
+## Description
+
 A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kailh Choc](http://www.kailh.com/en/Products/Ks/CS/) low profile switches with hot-swap sockets. Compatible with ProMicro type controllers, but designed to be used with [Nice!Nano](https://nicekeyboards.com/nice-nano). Capable of n-key rollover.
 
-### Build
-There is gerber files for the PCB and STL models for the case in the export folder.
+## Materials
 
-It uses **3mm tall machine pin headers** to create space for **301230 battery**. The holes in the PCB are enlarged to allow the headers to sit flush with the board. I've also soldered a reset button directly on top of Nice!Nano's pins.
+| Name            | Part         | Size   | Amount |
+|---------------- | ------------ | ------ | ------ |
+| Switch          | CPG135001D0X |        | 42     |
+| Socket          | CPG135001S30 |        | 42     |
+| Diode           | 1N4148       | SOD123 | 42     |
+| Controller      | nice!nano    |        | 1      |
+| Battery         | XZK          | 301230 | 1      |
+| Bolt            | M2 Hex          | 4mm    | 8      |
+| Machine Headers | Mill-Max     | 13p 3mm | 2      |
 
-For every switch there is a **1N4148** diode in a **SOD123** package. Diodes are soldered where an LED would normally be located, as the board has no lighting of any sort. Although can diodes be soldered by hand, a hot-air gun definitely makes task easier.
+## Build
 
-The bottom case is attached using eight 4mm long (excluding head) M2 bolts.
-I've attached some rubber feet as well to keep it from sliding around.
+#### PCB
 
-Few things to note:
-- There is no battery disconnect switch. In my case it's fine since the controller is quite energy efficient.
-- 3D Model for the case does not have any tolerance included so depending on your printer settings I can be a potentially tight fit.
-- Although the controller shipped with included pin headers, but they where not tall enough to fit the battery when soldered flush with the board.
+![image](docs/photos/0.jpg)
+- For every switch has a diode, soldered where an LED would normally be located, providing n-key rollover.
+- ⚠️ No power switch for the battery
 
-### Images
-![Pcb layout](docs/photos/0.jpg)
-![Pcb layout](docs/photos/1.jpg)
-![Pcb layout](docs/photos/2.jpg)
-![Pcb layout](docs/photos/3.jpg)
+#### Sockets
+
+![image](docs/photos/2.jpg)
+
+- The PCB has 1.5mm wide holes for mounting the controller socket. This allows soldering machine headers flush with the board. The nice!nano controller originally ships with low profile headers, which won't fit the battery underneath the controller, if soldered in this manner. Therefore a pair of 3mm tall headers had to be separately ordered.
+
+#### Case
+
+![image](docs/photos/1.jpg)
+
+- All 3d printing was done with 0.4mm nozzle at 0.2mm layer height from PETG.
+- The bottom case is attached using eight 4mm long M2 bolts.
+- Added feet using 1mm thick rubber tape
+
+#### Leds
+
+![image](docs/photos/4.jpg)
+
+- There are two openings controller's LEDs. They can be filled with a dab of hot-glue before the print is removed form the print-bed to get a diffused look.
