@@ -43,4 +43,4 @@ A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kai
 
 ![image](docs/photos/4.jpg)
 
-- There are two openings controller's LEDs. They can be filled with a dab of hot-glue before the print is removed form the bed to get a diffused look.
+- There are two openings controller's LEDs. They can be filled with a dab of hot-glue before the print is removed form the bed to get a more diffused look *...for science, you monster.*
