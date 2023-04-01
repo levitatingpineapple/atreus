@@ -1,8 +1,8 @@
 # Atreus
 
-![image](docs/photos/3.jpg)
-
 A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kailh Choc](http://www.kailh.com/en/Products/Ks/CS/) low profile switches with hot-swap sockets. Compatible with ProMicro type controllers, but designed to be used with [Nice!Nano](https://nicekeyboards.com/nice-nano). Capable of n-key rollover. There is enough spacing between keys to fit all of the commonly available keycaps - transparent, flat and concave.
+
+![image](docs/photos/3.jpg)
 
 ### Materials
 
