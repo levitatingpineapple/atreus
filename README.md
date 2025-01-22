@@ -4,7 +4,13 @@ A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kai
 
 ![image](docs/photos/3.jpg)
 
-### Materials
+## Firmware
+
+[Nice!Nano](https://nicekeyboards.com/nice-nano) is best supported by [ZMK](https://zmk.dev) Configuration for this board is hosted in the [levitatingpineapple/atreus-zmk](https://github.com/levitatingpineapple/atreus-zmk) repo.
+To build a different keymap - clone the repo and update `.keymap` file as needed.
+The firmware will be build using [Build ZMK firmware](https://github.com/levitatingpineapple/atreus-zmk/actions/workflows/build.yml) action.
+
+## Materials
 
 | Name            | Part                             | Size        | Amount |
 | --------------- | -------------------------------- | ----------- | ------ |
@@ -19,6 +25,7 @@ A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kai
 ### PCB
 
 ![image](docs/photos/0.jpg)
+
 - ⚠️ No power switch for the battery
 - For every switch has a diode, soldered where an backlight LED would normally be located, providing n-key rollover.
 
@@ -40,4 +47,4 @@ A keyboard with 42 key [Atreus](https://atreus.technomancy.us) layout. Uses [Kai
 
 ![image](docs/photos/4.jpg)
 
-- In the nice!nano's cover there are two openings for the LEDs. They can be filled with a dab of hot-glue before the print is removed form the bed to get a more diffused look *...for science, you monster.*
+- In the nice!nano's cover there are two openings for the LEDs. They can be filled with a dab of hot-glue before the print is removed form the bed to get a more diffused look _...for science, you monster._
